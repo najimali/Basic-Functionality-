@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context="com.example.nazi.practice.DataStorage.Main2Activity">
+
+
+
+
+    <EditText
+        android:id="@+id/name_sql"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the name"
+        android:layout_marginTop="30dp"/>
+
+
+        <EditText
+            android:id="@+id/surname_sql"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter the surname"
+            android:layout_marginTop="30dp"/>
+        <EditText
+            android:id="@+id/marks_sql"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter the marks"
+            android:layout_marginTop="30dp"/>
+    <Button
+        android:id="@+id/Add_data_sql"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Data"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"/>
+
+
+
+</LinearLayout>
